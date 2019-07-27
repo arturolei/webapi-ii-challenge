@@ -15,7 +15,7 @@ Use `Node.js` and `Express` to build an API that performs _CRUD_ operations on `
 
 - [X] **Fork** and **Clone** this repository.
 - [X] **CD into the folder** where you cloned the repository.
-- Type `npm install` to download all dependencies.
+- [X] Type `npm install` to download all dependencies.
 - To start the server, type `npm run server` from the root folder (where the _package.json_ file is). The server is configured to restart automatically as you make changes.
 
 ### Database Persistence Helpers
@@ -65,8 +65,8 @@ A Comment in the database has the following structure:
 
 ### Minimum Viable Product
 
-- Add the code necessary to implement the endpoints listed below.
-- Separate the endpoints that begin with `/api/posts` into a separate `Express Router`.
+- [] Add the code necessary to implement the endpoints listed below.
+- [] Separate the endpoints that begin with `/api/posts` into a separate `Express Router`.
 
 ### Endpoints
 
@@ -78,8 +78,10 @@ Configure the API to handle to the following routes:
 | POST   | /api/posts/:id/comments | Creates a comment for the post with the specified id using information sent inside of the `request body`.                                                                   |
 | GET    | /api/posts              | Returns an array of all the post objects contained in the database.                                                                                                         |
 | GET    | /api/posts/:id          | Returns the post object with the specified id.                                                                                                                              |
-| GET    | /api/posts/:id/comments | Returns an array of all the comment objects associated with the post with the specified id.                                                                                 |
+| GET    | /api/posts/:id/comments | Returns an array of all the comment objects associated with the post with the specified id. 
+                                                                                |
 | DELETE | /api/posts/:id          | Removes the post with the specified id and returns the **deleted post object**. You may need to make additional calls to the database in order to satisfy this requirement. |
+
 | PUT    | /api/posts/:id          | Updates the post with the specified `id` using data from the `request body`. Returns the modified document, **NOT the original**.                                           |
 
 #### Endpoint Specifications
