@@ -65,8 +65,8 @@ A Comment in the database has the following structure:
 
 ### Minimum Viable Product
 
-- [] Add the code necessary to implement the endpoints listed below.
-- [] Separate the endpoints that begin with `/api/posts` into a separate `Express Router`.
+- [X] Add the code necessary to implement the endpoints listed below.
+- [X] Separate the endpoints that begin with `/api/posts` into a separate `Express Router`.
 
 ### Endpoints
 
