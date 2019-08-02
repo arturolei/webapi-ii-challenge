@@ -1,6 +1,6 @@
 
 exports.seed = function(knex, Promise) {
-  return knex('comments').truncate()
+  return knex('comments').delete()
     .then(function () {
       return knex('comments').insert([
         {text: "Let your workings remain a mystery. Just show people the results.", post_id: 1},
